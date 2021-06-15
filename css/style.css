@@ -154,8 +154,8 @@ body {
 }
 .header .wraper .offer .offer__btn:hover {
   background: #FFF;
-  -webkit-box-shadow: 2px 2px 5px #ffd429;
-          box-shadow: 2px 2px 5px #ffd429;
+  -webkit-box-shadow: 2px 2px 10px #ffd429;
+          box-shadow: 2px 2px 10px #ffd429;
 }
 .header .wraper .header__img {
   margin: 0 -62px 0 0;
