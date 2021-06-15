@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/*Обнуление всех отступов на странице*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+/*Отображение семантических елементов как блочных*/
+nav, footer, header, aside, ul {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  background: #ffd429;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #2e2a1b;
+  letter-spacing: 0.3px;
+  text-align: center;
+  padding: 21px 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.section-title {
+  color: #201b2d;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  padding: 105px 0 0 0;
+}
+
+.header {
+  background: #44abef;
+  background: -webkit-gradient(linear, left top, right top, from(#44abef), to(#4096ee));
+  background: linear-gradient(to right, #44abef 0%, #4096ee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#44abef", endColorstr="#4096ee",GradientType=1 );
+  padding: 65px 0 72px;
+  color: #fff;
+}
+.header .wraper {
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .wraper .offer {
+  margin: -15px 0 0 0;
+}
+.header .wraper .offer .offer__title {
+  width: 560px;
+  font-size: 37px;
+  font-weight: 700;
+  letter-spacing: 0.74px;
+  line-height: 49px;
+}
+.header .wraper .offer .offer__title .offer__title__word {
+  font-size: 59px;
+  letter-spacing: 1.18px;
+  line-height: 80px;
+}
+.header .wraper .offer .offer__text {
+  margin: 25px 0 0 0;
+  width: 400px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+}
+.header .wraper .offer .offer__btn {
+  width: 225px;
+  margin: 35px 0 0 0;
+}
+.header .wraper .offer .offer__btn:hover {
+  background: #FFF;
+  -webkit-box-shadow: 2px 2px 5px #ffd429;
+          box-shadow: 2px 2px 5px #ffd429;
+}
+.header .wraper .header__img {
+  margin: 0 -62px 0 0;
+}
+
+.waiting {
+  padding: 0 0 120px 0;
+}
+.waiting .waiting-columns {
+  margin: 73px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.waiting .waiting-columns .waiting__columns__item {
+  text-align: center;
+  color: #201b2d;
+  width: 300px;
+}
+.waiting .waiting-columns .waiting__columns__item .column__title {
+  margin: 30px 0 0 0;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.38px;
+}
+.waiting .waiting-columns .waiting__columns__item .column__text {
+  margin: 18px 0 0 0;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+}
+
+.order {
+  background: #ecf3f8;
+  padding: 0 0 105px 0;
+}
+.order .order__form {
+  margin: 55px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.order .order__form input {
+  display: block;
+  width: 343px;
+  height: 48px;
+  letter-spacing: 0.3px;
+  padding: 17px 25px;
+  margin: 0 0 15px 0;
+}
+.order .order__form .order__form__btn {
+  width: 343px;
+}
+.order .order__form .order__form__btn:hover {
+  color: red;
+  -webkit-box-shadow: 2px 2px 5px black;
+          box-shadow: 2px 2px 5px black;
+}
+
+.credits {
+  background: #164d7a;
+  padding: 60px 0;
+  text-align: center;
+  color: #fff;
+}
