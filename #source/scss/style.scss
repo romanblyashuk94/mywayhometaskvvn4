@@ -1,5 +1,6 @@
 @import "null.scss";
 
+
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
@@ -32,7 +33,7 @@ body {
 }
 
 .header {
-    background: #44abef;
+    background: #44abef / cover;
     background: -moz-linear-gradient(left,  #44abef 0%, #4096ee 100%); 
     background: -webkit-linear-gradient(left,  #44abef 0%,#4096ee 100%);
     background: linear-gradient(to right,  #44abef 0%,#4096ee 100%);
@@ -140,3 +141,6 @@ body {
     text-align: center;
     color: #fff;
 }
+
+@import "adaptive.scss";
+

@@ -107,7 +107,7 @@ body {
 }
 
 .header {
-  background: #44abef;
+  background: #44abef/cover;
   background: -webkit-gradient(linear, left top, right top, from(#44abef), to(#4096ee));
   background: linear-gradient(to right, #44abef 0%, #4096ee 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#44abef", endColorstr="#4096ee",GradientType=1 );
@@ -229,4 +229,99 @@ body {
   padding: 60px 0;
   text-align: center;
   color: #fff;
+}
+
+@media screen and (max-width: 1310px) {
+  .header .wraper .header__img {
+    margin: 0;
+    width: 620px;
+  }
+}
+@media screen and (max-width: 1206px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header .wraper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .header .wraper .offer {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .header .wraper .offer .offer__text {
+    width: 66%;
+  }
+  .header .wraper .header__img {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .header .wraper .header__img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .header {
+    padding-bottom: 0;
+  }
+  .header .wraper .offer .offer__title {
+    width: 85%;
+  }
+
+  .section-title {
+    padding: 55px 0 0 0;
+  }
+
+  .waiting {
+    padding-bottom: 30px;
+  }
+  .waiting .waiting-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .waiting .waiting-columns .waiting__columns__item {
+    margin-bottom: 35px;
+  }
+  .waiting .waiting-columns .waiting__columns__item .column__title {
+    margin: 20px 0 0 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header {
+    padding-bottom: 0;
+  }
+  .header .wraper .offer .offer__title {
+    width: 100%;
+  }
+  .header .wraper .offer .offer__text {
+    width: 100%;
+  }
+
+  .waiting {
+    padding: 0 0 40px 0;
+  }
 }
