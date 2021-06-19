@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Ubuntu", sans-serif;
   font-size: 15px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -324,4 +325,12 @@ body {
   .waiting {
     padding: 0 0 40px 0;
   }
+}
+.red {
+  color: red;
+  text-decoration: underline;
+}
+
+.animated {
+  opacity: 0;
 }

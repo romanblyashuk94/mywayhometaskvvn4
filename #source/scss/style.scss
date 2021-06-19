@@ -1,9 +1,9 @@
 @import "null.scss";
 
-
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -144,3 +144,11 @@ body {
 
 @import "adaptive.scss";
 
+.red {
+    color: red;
+    text-decoration: underline;
+}
+
+.animated {
+    opacity: 0;
+}
